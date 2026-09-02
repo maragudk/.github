@@ -1,0 +1,7 @@
+{
+  "name": "Security",
+  "description": "Runs govulncheck via the shared maragudk/workflows Security workflow and opens an issue on failure.",
+  "iconName": "octicon shield",
+  "categories": ["Go"],
+  "filePatterns": ["go.mod$"]
+}
