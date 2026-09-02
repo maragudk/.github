@@ -1,0 +1,7 @@
+{
+  "name": "Compatibility",
+  "description": "Runs the shared maragudk/workflows Compatibility workflow on a daily schedule to catch breakage from new Go and dependency releases.",
+  "iconName": "octicon beaker",
+  "categories": ["Go"],
+  "filePatterns": ["go.mod$"]
+}

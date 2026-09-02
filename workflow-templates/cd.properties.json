@@ -1,0 +1,7 @@
+{
+  "name": "CD",
+  "description": "Publishes a Docker image to GHCR via the shared maragudk/workflows CD workflow on push to the default branch.",
+  "iconName": "octicon rocket",
+  "categories": ["Go"],
+  "filePatterns": ["Dockerfile$"]
+}

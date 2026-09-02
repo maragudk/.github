@@ -1,0 +1,7 @@
+{
+  "name": "CI",
+  "description": "Runs lint and test via the shared maragudk/workflows Lint and Test workflows on push and pull request.",
+  "iconName": "octicon check",
+  "categories": ["Go"],
+  "filePatterns": ["go.mod$"]
+}
