@@ -1,0 +1,14 @@
+name: CD
+
+on:
+  push:
+    branches:
+      - $default-branch
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  publish:
+    uses: maragudk/workflows/.github/workflows/cd.yml@main
