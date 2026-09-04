@@ -21,6 +21,10 @@ jobs:
 
   test:
     uses: maragudk/workflows/.github/workflows/test.yml@main
+    # Uncomment for repositories whose tests need a Postgres and/or S3 service.
+    # with:
+    #   postgres: true
+    #   s3: true
 
   # Uncomment for repositories with a Dockerfile.
   # build:
